@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-22T08:42:18 ICT" name="Default suite" finished-at="2023-03-22T08:42:45 ICT" duration-ms="27356">
+    <groups>
+    </groups>
+    <test started-at="2023-03-22T08:42:18 ICT" name="Default test" finished-at="2023-03-22T08:42:45 ICT" duration-ms="27356">
+      <class name="com.poly.testcase.SignUpTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.poly.testcase.SignUpTest@1aafa419]" started-at="2023-03-22T08:42:18 ICT" name="beforeTest" finished-at="2023-03-22T08:42:18 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.poly.testcase.SignUpTest@1aafa419]" started-at="2023-03-22T08:42:18 ICT" name="beforeClass" finished-at="2023-03-22T08:42:41 ICT" duration-ms="22652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="signupWithExistsUsername()[pri:0, instance:com.poly.testcase.SignUpTest@1aafa419]" started-at="2023-03-22T08:42:41 ICT" name="signupWithExistsUsername" finished-at="2023-03-22T08:42:42 ICT" duration-ms="1610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupWithExistsUsername -->
+        <test-method signature="signupWhenConfirmPasswordFaile()[pri:1, instance:com.poly.testcase.SignUpTest@1aafa419]" started-at="2023-03-22T08:42:42 ICT" name="signupWhenConfirmPasswordFaile" finished-at="2023-03-22T08:42:44 ICT" duration-ms="1402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupWhenConfirmPasswordFaile -->
+        <test-method signature="signup()[pri:2, instance:com.poly.testcase.SignUpTest@1aafa419]" started-at="2023-03-22T08:42:44 ICT" name="signup" finished-at="2023-03-22T08:42:45 ICT" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.poly.testcase.SignUpTest@1aafa419]" started-at="2023-03-22T08:42:45 ICT" name="afterClass" finished-at="2023-03-22T08:42:45 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.poly.testcase.SignUpTest@1aafa419]" started-at="2023-03-22T08:42:45 ICT" name="afterTest" finished-at="2023-03-22T08:42:45 ICT" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.poly.testcase.SignUpTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

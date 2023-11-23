@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+	version="3.0">
+	<persistence-unit name="asm"
+		transaction-type="RESOURCE_LOCAL">
+		<class>com.poly.entity.User</class>
+		<class>com.poly.entity.Favorite</class>
+		<class>com.poly.entity.Video</class>
+		<class>com.poly.entity.Share</class>
+		<class>com.poly.entity.Report</class>
+		<class>com.poly.dtos.FavoriteUserDto</class>
+		<class>com.poly.dtos.ShareUserDto</class>
+		<exclude-unlisted-classes>true</exclude-unlisted-classes>
+		<properties>
+			<property name="javax.persistence.jdbc.driver"
+				value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+			<property name="javax.persistence.jdbc.url"
+				value="jdbc:sqlserver://localhost;database=asm;encrypt=true;trustServerCertificate=true" />
+			<property name="javax.persistence.jdbc.user" value="sa" />
+			<property name="javax.persistence.jdbc.password" value="2808" />
+			<property name="hibernate.connection.useUnicode" value="true" />
+            <property name="hibernate.connection.characterEncoding" value="UTF-8" />
+            <property name="hibernate.connection.charSet" value="UTF-8"/>
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.format_sql" value="true" />
+			<property
+				name="javax.persistence.schema-generation.database.action"
+				value="none" />
+		</properties>
+	</persistence-unit>
+</persistence>

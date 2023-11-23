@@ -1,0 +1,69 @@
+.bg-gray {
+  background-color: rgb(242 242 242);
+}
+
+.description {
+  border-left: 6px solid gray !important;
+  margin-top: 10px;
+}
+.watch-content {
+  flex: 5;
+  height: 100px;
+}
+
+.watch-img {
+  flex: 4;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+.watch-video-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.share-icon {
+  width: 50px;
+  height: 50px;
+}
+.share-label {
+  font-size: 0.8rem;
+}
+.copy-btn {
+  top: 8px;
+  right: 8px;
+}
+.share-email-box {
+  height: 130px;
+  overflow-y: scroll;
+  flex-wrap: wrap;
+}
+.share-email-box::-webkit-scrollbar {
+  width: 8px;
+  background: rgb(220, 220, 220);
+  border-radius: 0 8px 8px 0;
+}
+
+.share-email-box::-webkit-scrollbar-thumb {
+  background: rgb(180, 180, 180);
+  border-radius: 0 8px 8px 0;
+}
+.share-email-item {
+  height: 36px;
+}
+.share-email-item + .share-email-item {
+  margin-top: 4px;
+}
+
+.add-email-input {
+  background-color: white;
+}
+.add-email-input.dark {
+  background-color: #26282b !important;
+}
+.input-group-text{
+	cursor: pointer;
+}

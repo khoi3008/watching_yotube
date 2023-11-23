@@ -1,0 +1,28 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="SmartTomcat" type="com.poratu.idea.plugins.tomcat" singleton="false">
+    <log_file alias="Tomcat Catalina Log" path="$USER_HOME$/.SmartTomcat/asm/asm/logs/catalina.*" />
+    <log_file alias="Tomcat Manager Log" path="$USER_HOME$/.SmartTomcat/asm/asm/logs/manager.*" />
+    <log_file alias="Tomcat Host Manager Log" path="$USER_HOME$/.SmartTomcat/asm/asm/logs/host-manager.*" />
+    <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+    <predefined_log_file enabled="true" id="Tomcat Access Log" />
+    <option name="catalinaBase" value="C:\Users\hoang\.SmartTomcat\asm\asm" />
+    <option name="contextPath" value="/asm" />
+    <option name="docBase" value="D:\workspace\Servlet\asm\src\main\webapp" />
+    <option name="envOptions">
+      <map />
+    </option>
+    <option name="extraClassPath" value="" />
+    <option name="tomcatInfo">
+      <TomcatInfo>
+        <option name="name" value="Apache Tomcat/10.1.8" />
+        <option name="path" value="C:/Program Files/Java/apache-tomcat-10.1.8" />
+        <option name="version" value="10.1.8.0" />
+      </TomcatInfo>
+    </option>
+    <option name="vmOptions" value="" />
+    <module name="asm" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

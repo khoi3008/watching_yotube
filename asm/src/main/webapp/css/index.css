@@ -1,0 +1,79 @@
+.tonggle-theme-btn {
+  opacity: 0;
+  position: absolute;
+}
+
+.tonggle-theme-label {
+  width: 33px;
+  height: 19px;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px;
+  position: relative;
+  transform: scale(1.5);
+  border: 1px solid #bfbfbf;
+  background-color: white;
+}
+
+.tonggle-theme-ball {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+  background-color: #bfbfbf;
+}
+
+.tonggle-theme-btn:checked + .tonggle-theme-label .tonggle-theme-ball {
+  transform: translateX(13px);
+  background-color: white;
+}
+.tonggle-theme-btn:checked + .tonggle-theme-label {
+  background-color: #4c027d;
+  border: 1px solid white;
+}
+
+.bi-moon-fill {
+  color: #f7f721;
+  font-size: 0.6rem;
+}
+
+.bi-sun-fill {
+  color: rgb(255, 123, 0);
+  font-size: 0.6rem;
+}
+
+.video-short-des {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.video-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.video-item {
+  min-height: 380px;
+}
+.pointer {
+  cursor: pointer !important;
+}
+.like-color {
+  color: rgb(243, 62, 88);
+}
+.custom-alert-theme.dark {
+  background-color: rgb(53, 53, 53) !important;
+}
+#editor{
+	height: 250px;
+}

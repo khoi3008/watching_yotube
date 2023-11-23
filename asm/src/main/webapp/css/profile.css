@@ -1,0 +1,44 @@
+.text-gray {
+  color: #202124;
+}
+.text-title-gray {
+  color: #606060;
+}
+.text-gray.dark, .text-title-gray.dark{
+	color:white !important;
+}
+.cus-nav-item {
+  cursor: pointer;
+}
+.cus-nav-item:hover,
+.cus-nav-item.active:hover {
+  background-color: #f3f3f3;
+}
+.cus-nav-item.dark:hover,
+.cus-nav-item.active.dark:hover{
+	background-color:#282828!important; 
+}
+.cus-nav-item.active {
+  background-color: #e5e5e5;
+}
+
+.cus-nav-item.active.dark{
+	background-color: #3f3f3f !important;
+}
+.cus-nav-content {
+  display: none;
+}
+.cus-nav-content.active {
+  display: block;
+}
+.cus-nav-content.active {
+  animation: fade 0.3s linear;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
